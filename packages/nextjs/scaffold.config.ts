@@ -5,7 +5,7 @@ export type ScaffoldConfig = {
   pollingInterval: number;
   alchemyApiKey: string;
   walletConnectProjectId: string;
-  onlyLocalBurnerWallet: false;
+  onlyLocalBurnerWallet: boolean;
 };
 
 const scaffoldConfig = {
